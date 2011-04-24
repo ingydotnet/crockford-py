@@ -11,7 +11,7 @@ The module uses the base64 module's API for base32 functions:
 See base64 for more info.
 """
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 import base64, string
 
@@ -28,6 +28,7 @@ def b32encode(s):
     return base64.b32encode(s).translate(__std2crock, '=')
 
 def b32decode(b32, casefold=None, map01=None):
+    # Ensure the manatory padding is correct:
     b32 += '=' * ((8 - len(b32) % 8) % 8)
     return base64.b32decode(b32.translate(__crock2std),
         casefold=casefold, map01=map01)

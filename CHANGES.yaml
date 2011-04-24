@@ -1,5 +1,9 @@
 # Add each new entry to the top of the file.
 
+- version: 0.0.2
+  date:    Sun Apr 24 15:28:15 EST 2011
+  changes: Upgrade to package.py v0.1.1
+
 - version: 0.0.1
   date:    Sat Apr 23 20:50:50 EST 2011
   changes: Initial version.

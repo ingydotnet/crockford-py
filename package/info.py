@@ -12,6 +12,7 @@ def get():
   'name': 'crockford',
   'packages': ['crockford'],
   'scripts': [],
-  'version': '0.0.1'}
+  'url': 'http://github.com/ingydotnet/crockford-py/',
+  'version': '0.0.2'}
 )
     return info
