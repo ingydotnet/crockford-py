@@ -1,0 +1,2 @@
+include: ../package-py/my-info.yaml
+name: crockford
